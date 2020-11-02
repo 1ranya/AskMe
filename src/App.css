@@ -1,39 +1,95 @@
-.App {
-  text-align: center;
+.hero{
+  background-color: #84a59d !important  ;
+  background-image: url("../src/assets/Untitled.svg");
+  background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  color : #F28482 !important; 
+  font-family: 'Anton', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
+.subtitle{
+  color : black !important; 
+  font-family: 'Roboto', sans-serif;
 }
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.questionsSub{
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
 }
-
-.App-link {
-  color: rgb(112, 76, 182);
+.questionTitle{
+  color : #f6bd60 !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 45px;
 }
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px)
-  }
-  100% {
-    transform: translateY(0px)
-  }
+.cheersMessage{
+  z-index: 2;
+  /* position: absolute; */
+  text-align:center;
+}
+.cheersBlock{
+  position:relative
+}
+.cheersImg{
+  /* position: absolute; */
+  width: 40%;
+  height: 40%;
+  z-index: 1;
+}
+.retourLigne{
+  /* white-space: pre-line; */
+  word-wrap:break-word;
+}
+.startWithTimerDiv, .startWithoutTimerDiv{ 
+  /* font-family: 'Anton', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+  font-size: 35px;
+}
+.startWithTimerDiv:hover,.startWithoutTimerDiv:hover{
+  background-color:#F7EDE2 ;
+  color: #f28482;
+  animation-name: transitionQuestionType;
+  animation-duration: 0.7s;
+}
+.espacement{
+  width: 5%;
+}
+.icon, .fa-envelope {
+  color: black !important;
+}
+ion-icon {
+  font-size: 50px;
+  margin-top: 0px !important;
+}
+.trait
+{
+background-color: black;
+height: 1pt;
+width: 100%;
+}
+.block{
+  display: inline
+}
+.counter{
+  font-size: 500%;
+  color : #f6bd60 !important; 
+}
+.column{
+  background-color: #f6bd60;
+}
+.chartCard{
+  background-color: rgba(247, 237, 226, 0.7) ;
+}
+.chartTitle{
+  color : #F28482 !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+}
+.chartSub{
+  font-size: 30px;
+}
+.typeQuestions{
+  padding: 3rem !important ;
+}
+@keyframes transitionQuestionType {
+  from {background-color: #f6bd60}
+  to {background-color: #F7EDE2}
 }
