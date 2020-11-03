@@ -3,6 +3,10 @@ import QuestionsSection from "./QuestionsSection"
 import QuestionsSectionWithTimer from "./QuestionsSectionWithTimer"
 import TypeQuestions from "./TypeQuestions"
 import Chart from "./Chart"
+import Addquestion from './AddQuestion'
+import Login from './Login'
+import Signin from './Signin'
+
 export default function Main(props) {
     const [startWithTimer, setStartWithTimer] = useState(false);
     const [startWithoutTimer, setStartWithoutTimer] = useState(false);
@@ -19,6 +23,7 @@ export default function Main(props) {
     }
 
     return (
+        <>
         <section className="hero is-success is-fullheight">
                 {!startWithTimer && !startWithoutTimer ?
                     <></>: 
@@ -33,8 +38,11 @@ export default function Main(props) {
                         startWithTimer={startWithTimer}
                         startWithoutTimer={startWithoutTimer}
                     /> 
-                </div>
-                   
+                </div>                  
         </section>
+        <Addquestion/>
+        <Login/>
+        <Signin/>
+        </>
     )
 }

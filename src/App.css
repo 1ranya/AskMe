@@ -3,6 +3,9 @@
   background-image: url("../src/assets/Untitled.svg");
   background-size: cover;
 }
+.hero-addQuestion{
+  background-image: url("../src/assets/addQuestion.svg");
+}
 .title{
   color : #F28482 !important; 
   font-family: 'Anton', sans-serif;
@@ -40,6 +43,7 @@
 }
 .startWithTimerDiv, .startWithoutTimerDiv{ 
   /* font-family: 'Anton', sans-serif; */
+  background-color:#f6bd60;
   font-family: 'Nunito', sans-serif;
   font-size: 35px;
 }
@@ -72,9 +76,9 @@ width: 100%;
   font-size: 500%;
   color : #f6bd60 !important; 
 }
-.column{
+/* .column{
   background-color: #f6bd60;
-}
+} */
 .chartCard{
   background-color: rgba(247, 237, 226, 0.7) ;
 }
@@ -88,6 +92,28 @@ width: 100%;
 }
 .typeQuestions{
   padding: 3rem !important ;
+}
+.formQuestion{
+  margin: 259px auto;
+}
+#questionAposerTitle, #actionTitle{
+  color :black !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 45px;
+}
+.hero-login{
+  background-image: url("../src/assets/login.svg");
+}
+.hero-signin{
+  background-image: url("../src/assets/signup.svg");
+}
+.formTitle{
+  color :black !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 45px;
+}
+.formSignin{
+  margin-top: 40rem !important;
 }
 @keyframes transitionQuestionType {
   from {background-color: #f6bd60}
