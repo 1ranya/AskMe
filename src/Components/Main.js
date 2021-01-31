@@ -24,7 +24,7 @@ export default function Main(props) {
 
     return (
         <>
-        <section className="hero is-success is-fullheight">
+        <section className="hero hero-main is-success is-fullheight">
                 {!startWithTimer && !startWithoutTimer ?
                     <></>: 
                     startWithTimer ?

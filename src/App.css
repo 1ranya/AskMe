@@ -1,10 +1,22 @@
 .hero{
   background-color: #84a59d !important  ;
+}
+.hero-main{
   background-image: url("../src/assets/Untitled.svg");
   background-size: cover;
 }
 .hero-addQuestion{
   background-image: url("../src/assets/addQuestion.svg");
+  background-size: cover;
+}
+.hero-login{
+  background-image: url("../src/assets/login2.svg");
+  background-size: cover;
+  background-color: #F7EDE2 !important;
+}
+.hero-signin{
+  background-image: url("../src/assets/signup.svg");
+  background-size: cover;
 }
 .title{
   color : #F28482 !important; 
@@ -25,24 +37,20 @@
 }
 .cheersMessage{
   z-index: 2;
-  /* position: absolute; */
   text-align:center;
 }
 .cheersBlock{
   position:relative
 }
 .cheersImg{
-  /* position: absolute; */
   width: 40%;
   height: 40%;
   z-index: 1;
 }
 .retourLigne{
-  /* white-space: pre-line; */
   word-wrap:break-word;
 }
 .startWithTimerDiv, .startWithoutTimerDiv{ 
-  /* font-family: 'Anton', sans-serif; */
   background-color:#f6bd60;
   font-family: 'Nunito', sans-serif;
   font-size: 35px;
@@ -76,9 +84,6 @@ width: 100%;
   font-size: 500%;
   color : #f6bd60 !important; 
 }
-/* .column{
-  background-color: #f6bd60;
-} */
 .chartCard{
   background-color: rgba(247, 237, 226, 0.7) ;
 }
@@ -94,28 +99,37 @@ width: 100%;
   padding: 3rem !important ;
 }
 .formQuestion{
-  margin: 259px auto;
+   margin: 259px auto; 
 }
 #questionAposerTitle, #actionTitle{
   color :black !important; 
   font-family: 'Anton', sans-serif;
   font-size: 45px;
 }
-.hero-login{
-  background-image: url("../src/assets/login.svg");
-}
-.hero-signin{
-  background-image: url("../src/assets/signup.svg");
-}
 .formTitle{
   color :black !important; 
   font-family: 'Anton', sans-serif;
   font-size: 45px;
 }
+.formSignTitle{
+  color :black !important; 
+  font-family: 'Anton', sans-serif;
+  font-size: 26px;
+}
 .formSignin{
-  margin-top: 40rem !important;
+  margin: 10.5rem auto !important;
+}
+.formLogin{
+  margin-top: 15rem;
 }
 @keyframes transitionQuestionType {
   from {background-color: #f6bd60}
   to {background-color: #F7EDE2}
 }
+/* @media(max-width:600px){
+  .hero-login{
+    background-image: url("../src/assets/loginMobile.svg");
+    width: 40rem;
+    background-color: #F7EDE2 !important;
+  }
+} */

@@ -6,7 +6,7 @@ export default function Typequestions({handleStartWithTimer,handleStartWithoutTi
             <div >
                 {!startWithTimer&&!startWithoutTimer ?
                 
-                <div class="columns is-mobile">
+                <div class="columns">
                     <div class="card column startWithTimerDiv typeQuestions" onClick={handleStartWithTimer}>
                         Timed out answers 
                         <br/>
