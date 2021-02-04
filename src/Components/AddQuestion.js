@@ -35,7 +35,7 @@ export default function Addquestion(props) {
                     </div>
                 
                     <div class="field">
-                        <label id="questionAposerTitle" class="label">Question à poser</label>
+                        <label id="questionAposerTitle" class="label">Question à poser ?</label>
                         <div class="control has-icons-left has-icons-right">
                             <input class="input is-success" name="question" type="text" placeholder="Question" value={question} onChange={handleQuestions}/>
                             <span class="icon is-small is-left"> 
